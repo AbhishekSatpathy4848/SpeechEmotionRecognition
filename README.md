@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Speech Emotion Recognition"
-description: "Predicts Emotion of the input Speech"
+description: "Predicts Emotion of the Input Speech"
 categories: envision
 thumbnail: "filename.jpg"
 year: 2022
