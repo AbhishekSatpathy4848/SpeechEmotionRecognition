@@ -170,9 +170,11 @@ The kernel size used in the convolutional layers are either 3 or 5 and the pool 
 
 ## Result 
 
-![Image 24-06-22 at 10 08 AM](https://user-images.githubusercontent.com/108116233/175547370-6a8b8649-af0d-466a-a55b-7673e5879696.jpg)    ![Screenshot 2022-06-24 at 10 11 20 AM](https://user-images.githubusercontent.com/108116233/175547413-02c91190-97d9-40d1-a42d-6e7d22fc7d11.jpeg)
+<img width="645" alt="Screenshot 2022-06-24 at 7 15 23 PM" src="https://user-images.githubusercontent.com/108116233/175548781-72256a0b-b468-4070-876b-f5b1517950f1.png">
 
-On the Test Set, we have achieved an accuracy of 89% and an accuracy of 74.76% on the validation set. 
+![Screenshot 2022-06-24 at 10 11 20 AM](https://user-images.githubusercontent.com/108116233/175547413-02c91190-97d9-40d1-a42d-6e7d22fc7d11.jpeg)
+
+On the test set, we have achieved an accuracy of 89% and an accuracy of 74.76% on the validation set. 
 We still plan on improving the accuracy of our model. 
 
 ## A snippet of the predicted output is shown below 
