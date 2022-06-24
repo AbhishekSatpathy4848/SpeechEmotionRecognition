@@ -77,20 +77,28 @@ There are a set of 200 target words spoken by two female speakers, resulting in 
 7442 audio files, 91 different speakers (48 male and 43 female), different statements are spoken in 6 different emotions and 4 emotional levels (low, mid, high and unspecified). 
 
 ### Bar graph representing the number of audio samples in each emotion: 
+<!-- 
+<img width="547" alt="Screenshot 2022-06-24 at 6 22 07 PM" src="https://user-images.githubusercontent.com/108116233/175539723-5b3f345f-83da-4f98-ba02-847670643b38.png"> -->
+![image](https://user-images.githubusercontent.com/78913275/175575200-3846ff05-9664-4be5-88c0-751710f48246.png)
 
-<img width="547" alt="Screenshot 2022-06-24 at 6 22 07 PM" src="https://user-images.githubusercontent.com/108116233/175539723-5b3f345f-83da-4f98-ba02-847670643b38.png">
 
 ### A waveform, frequency domain representation and mel spectrogram of a sample audio clip is shown below: 
 
-<img width="808" alt="Screenshot 2022-06-24 at 6 25 39 PM" src="https://user-images.githubusercontent.com/108116233/175540342-de318780-28b0-4bf4-93a4-46f74bd4556d.png">
+<!-- <img width="808" alt="Screenshot 2022-06-24 at 6 25 39 PM" src="https://user-images.githubusercontent.com/108116233/175540342-de318780-28b0-4bf4-93a4-46f74bd4556d.png"> -->
+![image](https://user-images.githubusercontent.com/78913275/175575332-042b4f44-2ae1-48b3-a38a-2010bf24c901.png)
+
 
 The time domain representation represents the amplitude of the signal at each point in time.
+<!-- 
+<img width="842" alt="Screenshot 2022-06-24 at 6 28 03 PM" src="https://user-images.githubusercontent.com/108116233/175540703-671b13e5-74e2-4c7c-9dec-c4d6911bd596.png"> -->
+![image](https://user-images.githubusercontent.com/78913275/175575563-c7defba3-8f85-4507-8fc6-46cfe0239c93.png)
 
-<img width="842" alt="Screenshot 2022-06-24 at 6 28 03 PM" src="https://user-images.githubusercontent.com/108116233/175540703-671b13e5-74e2-4c7c-9dec-c4d6911bd596.png">
 
 The frequency domain representation tells us about the different frequencies that are present in our signal. 
+<!-- 
+<img width="816" alt="Screenshot 2022-06-24 at 6 30 29 PM" src="https://user-images.githubusercontent.com/108116233/175541124-7aa4da49-6587-435d-933d-923a8e4a5256.png"> -->
+![image](https://user-images.githubusercontent.com/78913275/175575737-fe59bb97-7174-4172-89df-3fa206de3c30.png)
 
-<img width="816" alt="Screenshot 2022-06-24 at 6 30 29 PM" src="https://user-images.githubusercontent.com/108116233/175541124-7aa4da49-6587-435d-933d-923a8e4a5256.png">
 
 The above figure is a mel spectrogram for an audio clip. 
 
@@ -144,7 +152,9 @@ By leveraging this power of CNN, it could also be used to classify audio clips. 
 
 That’s exactly what’s used in our project, extracting audio features and then shaping them into a multi-dimensional matrix, which is then fed into the CNN for training. This builds a robust model which is capable of classifying the emotions of an audio clip. 
 
-<img width="842" alt="Screenshot 2022-06-24 at 6 47 27 PM" src="https://user-images.githubusercontent.com/108116233/175543957-a8be2715-395c-440f-a54c-508a4b757de2.png">
+<!-- <img width="842" alt="Screenshot 2022-06-24 at 6 47 27 PM" src="https://user-images.githubusercontent.com/108116233/175543957-a8be2715-395c-440f-a54c-508a4b757de2.png">
+ -->
+ ![image](https://user-images.githubusercontent.com/78913275/175575885-c2503de9-14e7-451d-bdb5-b80f533009d0.png)
 
 ## Model Architecture
 
@@ -170,7 +180,9 @@ The kernel size used in the convolutional layers are either 3 or 5 and the pool 
 
 ## Result 
 
-<img width="645" alt="Screenshot 2022-06-24 at 7 15 23 PM" src="https://user-images.githubusercontent.com/108116233/175548781-72256a0b-b468-4070-876b-f5b1517950f1.png">
+<!-- <img width="500" alt="Screenshot 2022-06-24 at 7 15 23 PM" src="https://user-images.githubusercontent.com/108116233/175548781-72256a0b-b468-4070-876b-f5b1517950f1.png">
+ -->
+ ![image](https://user-images.githubusercontent.com/78913275/175576026-16160a7c-3f03-43f4-9c8b-fb54f96de095.png)
 
 <!-- ![Screenshot 2022-06-24 at 10 11 20 AM](https://user-images.githubusercontent.com/108116233/175547413-02c91190-97d9-40d1-a42d-6e7d22fc7d11.jpeg) --> -->
 
@@ -183,7 +195,9 @@ We still plan on improving the accuracy of our model.
 
 ## A snippet of the predicted output is shown below 
 
-<img width="377" alt="Screenshot 2022-06-24 at 7 09 49 PM" src="https://user-images.githubusercontent.com/108116233/175547734-cde71202-3349-4f8c-aba9-0b74b3f1a3ca.png">
+<!-- <img width="377" alt="Screenshot 2022-06-24 at 7 09 49 PM" src="https://user-images.githubusercontent.com/108116233/175547734-cde71202-3349-4f8c-aba9-0b74b3f1a3ca.png"> -->
+![image](https://user-images.githubusercontent.com/78913275/175576199-252e8deb-35fc-4f57-8c75-0a72ccc36d9f.png)
+
 
 ## Conclusion 
 
