@@ -164,7 +164,7 @@ The learning rate was initially set to 0.001 and was adjusted according to Reduc
 
 The loss function used in this model is categorical_crossentropy. 
 
-Adam optimizer was used along with a batch size of 32 and 100 epochs.  The above Hyperparameters could still be slightly tweaked to further improve accuracy. 
+Adam optimizer was used along with a batch size of 32 and 200 epochs.  The above Hyperparameters could still be slightly tweaked to further improve accuracy. 
 
 The kernel size used in the convolutional layers are either 3 or 5 and the pool size in the maxpooling layers are all set to 3 making strides of 2. 
 
